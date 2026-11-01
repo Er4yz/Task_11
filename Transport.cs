@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,6 +34,7 @@ namespace ConsoleApp2
         }
         #endregion
 
+        #region Методы
         /// <summary>
         /// Увеличивает общий пробег _mileageKm += distanceKm и выводит базовый отчет о перемещении;
         /// </summary>
@@ -53,5 +54,6 @@ namespace ConsoleApp2
             Console.WriteLine($"Mileage = {Mileage}");
             Console.WriteLine($"Speed = {Speed}");
         }
+        #endregion
     }
 }
