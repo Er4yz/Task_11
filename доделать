@@ -1,0 +1,6 @@
+доделать операторы is, as
+каждому public override void Move(double distanceKm)
+{
+    base.Move(distanceKm);
+    Console.WriteLine("Автобус/электроскутер следует по городскому маршруту с остановками");
+}
