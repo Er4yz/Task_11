@@ -44,7 +44,7 @@ namespace ConsoleApp11.NewFolder1
         /// </summary>
         public void UnloadCargo()
         {
-
+            Console.WriteLine("Кузов загрузка...30%...");
         }
         #endregion
 
