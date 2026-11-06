@@ -20,13 +20,13 @@ namespace ConsoleApp2
             #region Массив
             Transport[] fleet = new Transport[4] // Автопарк
             {
-                new PublicBus("Автобус 1", 40.5, 25),
-                new ElectricScooter("Автобус 2", 45.6, 85),
-                new ElectricScooter("Автобус 3", 42.3, 100),
-                new CargoTruck("Автобус 4", 44.7, 20, true)
+                new PublicBus("Автобус", 40.5, 25),
+                new ElectricScooter("Электрический скутер 1", 45.6, 85),
+                new ElectricScooter("Электрический скутер 2", 42.3, 100),
+                new CargoTruck("Грузовой транспорт", 44.7, 20, true)
             };
             #endregion
-            
+
             #region Цикл
             foreach (var bus in fleet)
             {
@@ -41,6 +41,10 @@ namespace ConsoleApp2
 
             #region Оператор is
             
+            #endregion
+
+            #region оператор as
+
             #endregion
 
         }
